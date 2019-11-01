@@ -1,6 +1,6 @@
 # ecb_aws_exchange
 The file **lambda_test.py**  is an simple file to test db_access.  
-Code pushed to aws_lambda via the deployment-package **lambda.zip**
+Code pushed to aws_lambda via the deployment-package **lambda.zip**, which includes the file lambda_function with the aws lambda_handler.
 
 This [package](https://github.com/jkehler/awslambda-psycopg2) was used to run the psycopg2 library on aws_lambda
 ---
