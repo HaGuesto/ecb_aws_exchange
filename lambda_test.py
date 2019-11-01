@@ -17,4 +17,4 @@ exchange = db.Table('exchange_rates',metadata, autoload=True, autoload_with=engi
 
 
 
-print(engine.execute("SELECT * from exchange_rates where name = 'JPY'").fetchall())
+print(engine.execute("SELECT * from exchange_rates where currency = 'JPY'").fetchall())
